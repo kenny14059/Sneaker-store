@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "images": [
+        {
+          "url": "http://res.cloudinary.com/dlrairakf/image/upload/v1668147996/irh9vobasilxcsdx42rj.png",
+          "public_id": "irh9vobasilxcsdx42rj"
+        }
+      ],
+      "title": "NIKE BLUE",
+      "price": "3500",
+      "id": 2
+    },
+    {
+      "images": [
+        {
+          "url": "http://res.cloudinary.com/dlrairakf/image/upload/v1668573435/aq1ireeq6dok24m0m15o.png",
+          "public_id": "aq1ireeq6dok24m0m15o"
+        },
+        {
+          "url": "http://res.cloudinary.com/dlrairakf/image/upload/v1668573451/luqcufb2lrgodqavd5z4.png",
+          "public_id": "luqcufb2lrgodqavd5z4"
+        },
+        {
+          "url": "http://res.cloudinary.com/dlrairakf/image/upload/v1668573462/gewhbbkhondenvaqktdn.png",
+          "public_id": "gewhbbkhondenvaqktdn"
+        }
+      ],
+      "title": "Yeezy New Low",
+      "price": "4200",
+      "id": 4
+    },
+    {
+      "images": [
+        {
+          "url": "http://res.cloudinary.com/dlrairakf/image/upload/v1668762422/y7grd9h7dkplacrfsolr.png",
+          "public_id": "y7grd9h7dkplacrfsolr"
+        },
+        {
+          "url": "http://res.cloudinary.com/dlrairakf/image/upload/v1668762459/gcdphrslyu2lywrzujp4.png",
+          "public_id": "gcdphrslyu2lywrzujp4"
+        }
+      ],
+      "title": "Kobe Drippers",
+      "price": "10000",
+      "id": 7
+    }
+  ]
+}
