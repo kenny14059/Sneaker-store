@@ -101,7 +101,7 @@ const MyProduct = () => {
              <ProductDesc>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur labore mollitia,
                  a temporibus repellendus fugiat!
              </ProductDesc>
-             <Button>Order Now!</Button>
+             <Button >Order Now!</Button>
         </InfoContainer>
       </Wrapper>
       )}

@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { Link } from 'react-router-dom'
 import { signInWithGoogle } from "../firebase"
+import { useState } from "react"
 
 const Container = styled.div`
     width: 300px;
@@ -61,8 +62,10 @@ export const UserRoles = {
 export var CurrentUserRole = '';
 
 const Account = () => {
+     const [currentUser, setCurrentUser] = useState(false);
      const logout = ()=> {
       localStorage.clear();
+      setCurrentUser(false);
      }
      
       if(localStorage.getItem('email')=== 'kenny14059@gmail.com') {

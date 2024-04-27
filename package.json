@@ -25,6 +25,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "concurrently -n 'json,client,server' -c 'magenta,blue,green' \"npm run json-server\" \"npm run client\" \"npm run server\"",
+    "json-server": "npx json-server --watch data/db.json --port 8000",
+    "client": "npm start",
+    "server": "cd backend && npm run dev",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,5 +51,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "gh-pages": "^6.1.1"
   }
 }
