@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sneaker-store/static/css/main.219de008.css",
+    "main.js": "/Sneaker-store/static/js/main.c766530e.js",
+    "static/media/nikewhite.png": "/Sneaker-store/static/media/nikewhite.6da3f8f86ba830f904c6.png",
+    "static/media/Notfound.png": "/Sneaker-store/static/media/Notfound.8936f7f11e500a29b1f5.png",
+    "index.html": "/Sneaker-store/index.html",
+    "main.219de008.css.map": "/Sneaker-store/static/css/main.219de008.css.map",
+    "main.c766530e.js.map": "/Sneaker-store/static/js/main.c766530e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.219de008.css",
+    "static/js/main.c766530e.js"
+  ]
+}
